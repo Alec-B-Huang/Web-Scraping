@@ -6,7 +6,7 @@ from selenium.webdriver.common.by import By
 url = "https://valorantesports.com/standings"
 
 # Obtaining data from url
-driver = webdriver.Chrome('C:\\Program Files (x86)\\chromedriver.exe')
+driver = webdriver.Chrome(' ') # Insert webdriver path in ()
 driver.get(url)
 
 # Giving time to find div class
