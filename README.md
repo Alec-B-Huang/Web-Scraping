@@ -1,2 +1,2 @@
 # Web-Scraping
-A bunch of files for webscraping esport scores
+A bunch of files for webscraping esport scores. Current games that are included are League of Legends, Overwatch 2, Valorant. I plan on adding CSGO, Dota 2, Rocket League. The file for Overwatch 2 is currently being updated and does not work. I'm also working on formating the output for Valorant and LoL results. After I finish these files, I plan on making a small application (app/web-based, not sure yet) where you can view all scores of those esport scenes.
