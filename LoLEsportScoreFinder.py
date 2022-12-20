@@ -6,7 +6,7 @@ from selenium.webdriver.common.by import By
 url = "https://lolesports.com/schedule?leagues=season_2023_kickoff,lcs"
 
 # Obtaining data from url
-driver = webdriver.Chrome('C:\\Program Files (x86)\\chromedriver.exe')
+driver = webdriver.Chrome(' ') # Insert you webdriver path in the ()
 driver.get(url)
 
 # Giving time to find div class
