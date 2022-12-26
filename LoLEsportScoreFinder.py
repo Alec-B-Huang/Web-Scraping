@@ -16,8 +16,6 @@ driver.implicitly_wait(15)
 match = driver.find_elements(By.CLASS_NAME, "EventMatch")
 
 # Formatting output
-#scores = match.text
-#results = ' '.join(scores.split('\n'))
 blank = []
 for result in match:
     blank.append(result.text)
